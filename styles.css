@@ -124,6 +124,15 @@ main {
     margin-top: 2rem;
 }
 
+.manifesto h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
 .manifesto p {
     margin-bottom: 0.75rem;
     font-size: 0.9rem;
@@ -182,6 +191,10 @@ main {
     
     .manifesto h2 {
         font-size: 1rem;
+    }
+    
+    .manifesto h3 {
+        font-size: 0.9rem;
     }
     
     .manifesto p {
