@@ -93,11 +93,11 @@ main {
 }
 
 .tagline p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
     color: #333333;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .manifesto {
@@ -160,6 +160,37 @@ main {
     opacity: 0.7;
 }
 
+.manifesto .blog-posts {
+    margin-top: 0.5rem;
+}
+
+.manifesto .blog-post-item {
+    padding: 0.5rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.manifesto .blog-post-item:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.manifesto .blog-post-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #333333;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.manifesto .blog-post-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #666666;
+}
+
+.manifesto .blog-post-link:hover {
+    opacity: 0.7;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     header {
@@ -211,7 +242,7 @@ main {
     }
     
     .tagline p {
-        font-size: 0.9rem;
+        font-size: 0.95rem;
     }
 }
 
